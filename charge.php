@@ -24,7 +24,7 @@
 
   // Charge customer
   $charge = \Stripe\Charge::create([
-    "amount" => 5000,
+    "amount" => 39900,
     "currency" => 'USD',
     "description" => "Test",
     "customer" => $customer->id
